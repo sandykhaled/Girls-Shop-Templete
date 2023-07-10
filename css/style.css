@@ -233,40 +233,12 @@ body{
 {
     margin: 0 5%;
 }
-.offer-icons
-{
-    position: absolute;
-    z-index: 2;
-    font-size: 25px;
-    top:0;
-    right: 0;
-    visibility: hidden;
-    opacity: 0;
-    transform: 10s;
-}
+
 .offer-item
 {
     position: relative;
 }
-.offer-icons a 
-{
-    height:40px;
-    width: 40px;
-    font-size: 15px;
-    border-radius:50% ;
-    text-align: center;
-    display: block;
-    color: var(--main-color);
-    background-color: white;
-}
-.offer-icons a i{
-  line-height: 40px;
-}
-.offer-item:hover .offer-icons 
-{
-    visibility: visible;
-    opacity: 0.8;
-}
+
 .offer-data
 {
     float: left;
